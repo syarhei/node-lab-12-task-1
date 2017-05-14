@@ -1,0 +1,22 @@
+{
+  "name": "helloworld_heroku",
+  "version": "1.0.0",
+  "description": "Simple app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syarhei/nodeJS_lab_helloworld.git"
+  },
+  "author": "Sergei Murkou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syarhei/nodeJS_lab_helloworld/issues"
+  },
+  "homepage": "https://github.com/syarhei/nodeJS_lab_helloworld#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
