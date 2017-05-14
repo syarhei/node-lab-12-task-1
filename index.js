@@ -5,5 +5,8 @@
 let express = require('express');
 
 let app = express();
+let message = "Hello, Sergei Murkou!!!";
 
-app.listen(process.env.PORT || 3300, console.log("Hello, World!!!"));
+app.get('/', console.log(message));
+
+app.listen(process.env.PORT || 3300, console.log(message));
