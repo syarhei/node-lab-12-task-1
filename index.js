@@ -5,7 +5,7 @@
 let express = require('express');
 
 let app = express();
-let message = "Hello, Sergei Murkou!!!";
+let message = "Hello, Sergei!!! How are u?";
 
 app.get('/', (request, response) => { response.end(message) });
 
